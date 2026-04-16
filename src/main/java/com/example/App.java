@@ -10,7 +10,7 @@ public class App {
     public static void main(String[] args) {
 
         // Set path (Jenkins will use workspace path)
-        System.setProperty("webdriver.gecko.driver", "drivers/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "/home/vboxuser/devops/MyMavenSeleniumApp02/drivers/geckodriver");
 
         // Headless mode for Jenkins
         FirefoxOptions options = new FirefoxOptions();
